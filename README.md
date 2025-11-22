@@ -48,7 +48,34 @@
 
 ### Решение 1
 
-*здесь должно быть что-то*
+**Процесс выполнения:**
+
+````
+sudo apt install postgresql
+sudo -s
+wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu22.04_all.deb
+dpkg -i zabbix-release_latest_7.0+ubuntu22.04_all.deb
+apt update
+apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+systemctl status zabbix-server.service
+sudo -u postgres createuser --pwprompt zabbix
+sudo -u postgres createdb -O zabbix zabbix
+zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+nano /etc/zabbix/zabbix_server.conf
+````
+Строка должна быть :
+
+``DBPassword=zabbix``
+
+```diff
+-! (пароль такой же как и вводился при создании user_postgresql)
+```
+ 
+````
+systemctl restart zabbix-server zabbix-agent apache2
+systemctl enable zabbix-server zabbix-agent apache2
+````
+
 
 ### Задание 2
 
