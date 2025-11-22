@@ -65,7 +65,7 @@ nano /etc/zabbix/zabbix_server.conf
 ````
 Строка должна быть :
 
-``DBPassword=zabbix``
+DBPassword=zabbix
 
 ```diff
 -! (пароль такой же как и вводился при создании user_postgresql)
@@ -114,7 +114,9 @@ systemctl restart zabbix-agent
 systemctl enable zabbix-agent
 nano /etc/zabbix/zabbix_agentd.conf
 ````
+
 изменить строку:
+
 Server=``<ip_zabbix_сервера>``
 
 ````
