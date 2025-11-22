@@ -96,7 +96,30 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ### Решение 2
 
-*здесь должно быть что-то*
+![](https://github.com/smyity/Home_Work/blob/main/.pic/SMK012.PNG)
+
+![](https://github.com/smyity/Home_Work/blob/main/.pic/SMK013.PNG)
+
+![](https://github.com/smyity/Home_Work/blob/main/.pic/SMK014.PNG)
+
+**Процесс выполнения:**
+
+````
+sudo -s
+wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu22.04_all.deb
+dpkg -i zabbix-release_latest_7.0+ubuntu22.04_all.deb
+apt update
+apt install zabbix-agent
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
+nano /etc/zabbix/zabbix_agentd.conf
+````
+изменить строку:
+Server=``<ip_zabbix_сервера>``
+
+````
+systemctl restart zabbix-agent
+````
 
 ### Задание 3*
 
@@ -108,3 +131,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 ### Решение 3
 
 *здесь должно быть что-то*
+
+### Дополнительно
+
+[Ссылка на GoogleDoc](https://docs.google.com/document/d/1jv306h8ZfcfENLwdRAxXBWHVeDdgLUuYv9pkxyZb3a0/edit?usp=drive_link)
