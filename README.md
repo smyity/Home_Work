@@ -49,7 +49,7 @@
 
 Название шаблона **"Percent usage"** будет корректнее, чем **"Задание 1"**. Оно отображает суть мониторинга.
 
-![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC001.PNG)
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC002.PNG)
 
 ---
 ### Задание 2
