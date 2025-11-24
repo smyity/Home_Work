@@ -90,7 +90,9 @@
 
 ### Решение 3
 
-*здесь должно быть что-то*
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC004.PNG)
+
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC005.PNG)
 
 ---
 
