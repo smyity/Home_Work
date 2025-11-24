@@ -109,7 +109,7 @@
 
 ### Решение 4
 
-*здесь должно быть что-то*
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC006.PNG)
 
 ---
 
