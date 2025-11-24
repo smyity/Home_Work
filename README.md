@@ -69,7 +69,9 @@
 
 ### Решение 2
 
-*здесь должно быть что-то*
+Создано 3 ВМ в Yandex Cloud, 1 ВМ с Zabbix Server - Agent (master), 2 ВМ с Zabbix Agent (workstation\[1-2\])
+
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC003.PNG)
 
 ---
 
