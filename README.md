@@ -126,7 +126,7 @@
 
 ### Решение 5
 
-*здесь должно быть что-то*
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC007.PNG)
 
 ---
 
@@ -140,7 +140,25 @@
 
 ### Решение 6
 
-*здесь должно быть что-то*
+zapros.sh
+````
+#!/bin/bash
+
+case "$1" in
+  1)
+    echo "Anton Igorevich Shuraev"
+    ;;
+  2)
+    date
+    ;;
+  *)
+    echo "Only 1 or 2."
+    exit 1
+    ;;
+esac
+````
+
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC008.PNG)
 
 ---
 
@@ -155,7 +173,7 @@
 
 ### Решение 7
 
-*здесь должно быть что-то*
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC009.png)
  
  ---
 
