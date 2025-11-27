@@ -107,7 +107,7 @@
 
 ### Решение 4
 
-![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC006.PNG)
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC013.PNG)
 
 ---
 
