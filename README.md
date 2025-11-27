@@ -47,9 +47,7 @@
 
 ### Решение 1
 
-Название шаблона **"Percent usage"** будет корректнее, чем **"Задание 1"**. Оно отображает суть мониторинга.
-
-![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC002.PNG)
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC014.PNG)
 
 ---
 ### Задание 2
@@ -69,9 +67,9 @@
 
 ### Решение 2
 
-Создано 3 ВМ в Yandex Cloud, 1 ВМ с Zabbix Server - Agent (master), 2 ВМ с Zabbix Agent (workstation\[1-2\])
+Создано 3 ВМ в Yandex Cloud, 1 ВМ с Zabbix Server, 2 ВМ с Zabbix Agent.
 
-![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC003.PNG)
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC012.PNG)
 
 ---
 
