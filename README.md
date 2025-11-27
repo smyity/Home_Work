@@ -186,7 +186,11 @@ esac
 
 ### Решение 8
 
-*здесь должно быть что-то*
+Data collections → Host groups → Create host group (в правом верхнем углу) → workers
+
+Data collections → Discovery → Create discovery rule (в правом верхнем углу)
+
+Alerts → Actions → Discovery actions → Create action (в правом верхнем углу)
  
  ---
 
@@ -196,7 +200,7 @@ esac
 
 - [ ] Приложите в GitHub файлы Vagrantfile и zabbix-agent.sh.*
 
-### Решение 8
+### Решение 9
 
 *здесь должно быть что-то*
 
@@ -204,4 +208,4 @@ esac
  
 ### Дополнительно
 
-[Ссылка на GoogleDoc](https://docs.google.com/)
+[Ссылка на GoogleDoc](https://docs.google.com/document/d/1C4RosvZswv0FQs3Jweo-1vIahD3LYg-XysodkCJYTWE/edit?usp=drive_link)
