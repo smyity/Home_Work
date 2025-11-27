@@ -191,7 +191,11 @@ Data collections → Host groups → Create host group (в правом верх
 Data collections → Discovery → Create discovery rule (в правом верхнем углу)
 
 Alerts → Actions → Discovery actions → Create action (в правом верхнем углу)
- 
+
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC010.PNG)
+
+![](https://github.com/smyity/Home_Work/blob/main/.pic/PIC011.PNG)
+
  ---
 
 ### Задание 9* со звёздочкой
@@ -202,7 +206,7 @@ Alerts → Actions → Discovery actions → Create action (в правом ве
 
 ### Решение 9
 
-*здесь должно быть что-то*
+Вместо Vagrant, я использовал terraform в Yandex Cloud. Описание в GoogleDoc.
 
 ---
  
